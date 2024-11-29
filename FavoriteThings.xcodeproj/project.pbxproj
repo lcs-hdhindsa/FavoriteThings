@@ -13,6 +13,7 @@
 		74A1649B2CFA089100F75616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A164932CFA089100F75616 /* Assets.xcassets */; };
 		74A1649F2CFA08FF00F75616 /* FavouriteThing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A1649E2CFA08F800F75616 /* FavouriteThing.swift */; };
 		74A164A12CFA0A4400F75616 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A164A02CFA0A4400F75616 /* DetailView.swift */; };
+		74A164A32CFA0C7600F75616 /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A164A22CFA0C7600F75616 /* ListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		74A164952CFA089100F75616 /* FavoriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThingsApp.swift; sourceTree = "<group>"; };
 		74A1649E2CFA08F800F75616 /* FavouriteThing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouriteThing.swift; sourceTree = "<group>"; };
 		74A164A02CFA0A4400F75616 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		74A164A22CFA0C7600F75616 /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			isa = PBXGroup;
 			children = (
 				74A164902CFA089100F75616 /* ListView.swift */,
+				74A164A22CFA0C7600F75616 /* ListItemView.swift */,
 				74A164A02CFA0A4400F75616 /* DetailView.swift */,
 			);
 			path = Views;
@@ -162,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74A164A32CFA0C7600F75616 /* ListItemView.swift in Sources */,
 				74A164972CFA089100F75616 /* ListView.swift in Sources */,
 				74A1649F2CFA08FF00F75616 /* FavouriteThing.swift in Sources */,
 				74A164A12CFA0A4400F75616 /* DetailView.swift in Sources */,
