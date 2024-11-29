@@ -34,7 +34,7 @@ struct ListItemView: View {
         .padding()
         .background(
             RoundedRectangle(cornerRadius: 12)
-                .fill(Color(.pink))
+                .fill(Color(thingToShow.color))
         )
         .padding([.leading, .trailing], 16)
     }
